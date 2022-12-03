@@ -10,6 +10,10 @@ import { ProveedorProductosComponent } from './proveedor-productos/proveedor-pro
     ProductosComponent,
     ProveedorProductosComponent
   ],
+  exports : [
+    ProductosComponent,
+    ProveedorProductosComponent
+  ],
   imports: [
     CommonModule
   ]
